@@ -41,11 +41,9 @@
     font-weight: 550; 
 }
    
-
-
 /* hero section */
 #hero-section{
-    height: 100vh;
+    height: 675px;
     background-image:url("../resources/hero-bg.png");
     background-size: cover;
     background-position: center;
