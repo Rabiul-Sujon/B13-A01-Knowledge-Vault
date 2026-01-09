@@ -1,6 +1,6 @@
 
 .body {
-  font-family: "Open Sans", sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
 *{
     margin: 0;
@@ -114,184 +114,241 @@
 /* note section */
 
 #note-section {
-  padding: 80px 0;
-  background-color: #ffffffdd;
+    padding: 80px 0;
+    background-color: #ffffffdd;
 }
 
 #note-section  .note-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .note-heading {
-  font-size: 32px;
-  margin-bottom: 12px;
-  color: #0f172a;
+    font-size: 32px;
+    margin-bottom: 12px;
+    color:#000000;
 }
 
 .note-subtitle {
-  font-size: 14px;
-  color: #64748b;
-  margin-bottom: 48px;
+    font-size: 14px;
+    color: #64748b;
+    margin-bottom: 48px;
 }
 
 .note-cards-container {
-  display: flex;
-  gap: 24px;
-  justify-content: center;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
 }
 
 .note-card {
-  background-color: #ffffff;
-  border-radius: 8px;
-  padding: 32px 20px;
-  width: 200px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 32px 20px;
+    width: 200px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
 }
 
 .note-icon-bg {
-  width: 56px;
-  height: 56px;
-  background-color: rgba(249, 85, 85, 1);
-  border-radius: 50%;
-  margin: 0 auto 20px auto;
+    width: 56px;
+    height: 56px;
+    background-color: rgba(249, 85, 85, 1);
+    border-radius: 50%;
+    margin: 0 auto 20px auto;
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .note-icon {
-  width: 24px;
-  height: 24px;
+    width: 24px;
+    height: 24px;
 }
 
 .note-card-title {
-  font-size: 16px;
-  margin-bottom: 8px;
-  color: #001931;
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #001931;
 }
 
 .note-card-text {
-  font-size: 13px;
-  color: #627382;
-  line-height: 1.5;
+    font-size: 13px;
+    color: #627382;
+    line-height: 1.5;
 }
 
 /* second brain section */
 
 #second-brain-section {
-  padding: 80px 20px;
-  background: #ffffff;
+    padding: 80px 20px;
+    background: #ffffff;
 }
 
 .second-brain-container {
-  max-width: 1200px;
-  margin: auto;
-  display: flex;
-  align-items: center;
-  gap: 60px;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 60px;
 }
 
 .image-box img {
-  max-width: 100%;
-  height: auto;
+    max-width: 100%;
+    height: auto;
 }
 
 .content-box {
-  max-width: 520px;
+    max-width: 520px;
 }
 
 .section-label {
-  color: #30B868;
-  font-weight: 600;
-  font-size: 14px;
-  letter-spacing: 1px;
-  margin-bottom: 12px;
+    color: #30B868;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
 }
 
 .content-box h2 {
-  font-size: 40px;
-  line-height: 1.2;
-  margin-bottom: 20px;
-  color: #001931;
+    font-size: 40px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    color: #001931;
 }
 
 .description {
-  font-size: 16px;
-  color: #627382;
-  margin-bottom: 30px;
+    font-size: 16px;
+    color: #627382;
+    margin-bottom: 30px;
 }
 
 .feature-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .feature-list li {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  margin-bottom: 14px;
-  font-size: 16px;
-  color: #627382;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 14px;
+    font-size: 16px;
+    color: #627382;
 }
 .feature-list img {
-  width: 20px;
-  height: 20px;
+    width: 20px;
+    height: 20px;
 }
 
 /* early access section */
 #early-access-section {
-  padding: 80px 20px;
-  background: #ffffff;
+    padding: 80px 20px;
+    background: #ffffff;
 }
 
 .early-access-container {
-  max-width: 1200px;
-  margin: auto;
-  background: #f9f7f2;
-  border-radius: 14px;
-  padding: 70px 20px;
-  text-align: center;
+    max-width: 1200px;
+    margin: auto;
+    background: #f9f7f2;
+    border-radius: 14px;
+    padding: 70px 20px;
+    text-align: center;
 }
 
 .early-access-container h2 {
-  font-size: 36px;
-  color:#000000;
-  margin-bottom: 16px;
+    font-size: 36px;
+    color:#000000;
+    margin-bottom: 16px;
 }
 
 .subtitle {
-  font-size: 16px;
-  color:#627382;
-  margin-bottom: 24px;
+    font-size: 16px;
+    color:#627382;
+    margin-bottom: 24px;
 }
 
 .early-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
-  background:#30B868;
-  color: #ffffff;
-  border: none;
-  padding: 14px 28px;
-  border-radius: 8px;
-  font-size: 15px;
-  font-weight: 600;
-  cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background:#30B868;
+    color: #ffffff;
+    border: none;
+    padding: 14px 28px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
 }
 
 .early-btn img {
-  width: 16px;
-  height: 16px;
+    width: 16px;
+    height: 16px;
 }
 
 .bottom-text {
-  margin-top: 16px;
-  font-size: 13px;
-  color: #627382;
+    margin-top: 16px;
+    font-size: 13px;
+    color: #627382;
+}
+/* footer section */
+
+.footer-container {
+    background-color: #001a33; 
+    color: white;
+    padding: 40px 80px;
 }
 
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.footer-logo img {
+    height: 50px; 
+}
+
+.social-section {
+    text-align: center;
+}
+
+.social-title {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+.social-icon {
+    background-color: white; 
+    color: #001a33;         
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;     
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-divider {
+    border: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.1); 
+    margin: 20px;
+}
+
+.footer-bottom {
+    text-align: center;
+    font-size: 14px;
+    color: #cccccc;
+}
