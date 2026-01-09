@@ -2,3 +2,42 @@
 .body {
   font-family: "Open Sans", sans-serif;
 }
+*{
+    margin: 0;
+    padding: 0;
+}
+/* nav section */
+#navbar-section{
+    width: 100%;
+    max-height: 92px;
+    border: none;
+    background-color: #FFFFFF;
+}
+#navbar-section #navbar{
+   display: flex;
+   justify-content:space-around;
+   align-items: center;
+   padding: 16px 0px 16px 0px;
+}
+#navbar .navbar-logo{
+    width: 139px;
+    height: 60px;
+}
+#navbar .menu{
+    display: flex;
+    gap: 32px;
+}
+.menu .menu-link{
+    text-decoration: none;
+    font-size: 16px;
+    color: #000000;
+}
+.early-access-btn{
+    border: none;
+    border-radius: 4px;
+    padding: 12px 16px;
+    background-color: #30B868;
+    color: #FFFFFF;
+    font-weight: 550;
+    
+}
