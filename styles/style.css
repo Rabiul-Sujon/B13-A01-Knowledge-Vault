@@ -33,13 +33,15 @@
     color: #000000;
 }
 .early-access-btn{
-    border: none;
+     border: none;
     border-radius: 4px;
     padding: 12px 16px;
     background-color: #30B868;
     color: #FFFFFF;
     font-weight: 550; 
 }
+   
+
 
 /* hero section */
 #hero-section{
@@ -52,7 +54,7 @@
     align-items: center;
 }
 #hero-section .hero-container{
-    max-width: 720px;
+    max-width: 1200px;
     margin-left: 0 auto;
     text-align: center;
     color: #FFFFFF;
@@ -236,10 +238,60 @@
   font-size: 16px;
   color: #627382;
 }
-
 .feature-list img {
   width: 20px;
   height: 20px;
 }
 
+/* early access section */
+#early-access-section {
+  padding: 80px 20px;
+  background: #ffffff;
+}
+
+.early-access-container {
+  max-width: 1200px;
+  margin: auto;
+  background: #f9f7f2;
+  border-radius: 14px;
+  padding: 70px 20px;
+  text-align: center;
+}
+
+.early-access-container h2 {
+  font-size: 36px;
+  color:#000000;
+  margin-bottom: 16px;
+}
+
+.subtitle {
+  font-size: 16px;
+  color:#627382;
+  margin-bottom: 24px;
+}
+
+.early-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background:#30B868;
+  color: #ffffff;
+  border: none;
+  padding: 14px 28px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.early-btn img {
+  width: 16px;
+  height: 16px;
+}
+
+.bottom-text {
+  margin-top: 16px;
+  font-size: 13px;
+  color: #627382;
+}
 
